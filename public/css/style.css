@@ -1,0 +1,17 @@
+p{
+    color: plum;
+    padding: 1rem;
+    background-color: r;
+}
+
+.img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 25rem;
+}
+
+img{
+    width: 100%;
+}
