@@ -5,7 +5,7 @@
 $DB_SERVERNAME = "localhost";
 $DB_USERNAME = "root";
 $DB_PASSWORD = "";
-$DB_NAME ="db_hotel";
+$DB_NAME ="db_hotel6";
 
 //connect
 $conn = new mysqli("localhost", "root", "", "db_hotel")
@@ -35,7 +35,7 @@ $conn = new mysqli("localhost", "root", "", "db_hotel")
         if ($conn && $conn->connect_error) {
             echo "Connessione fallita" . $conn->connect_error;
         } else {
-            echo "<span>". "Connessione eseguita con successo come ci fa presente Joost" . "</span>";
+            echo "<span>". "Connessione eseguita con successo come ci fa presente Joost." . "</span>";
         }
         ?>
     </p>

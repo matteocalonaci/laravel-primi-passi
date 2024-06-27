@@ -1,7 +1,6 @@
 p{
     color: plum;
     padding: 1rem;
-    background-color: r;
 }
 
 .img-container{
@@ -10,8 +9,9 @@ p{
     align-items: center;
     margin: 0 auto;
     width: 25rem;
+    box-shadow: 10px 10px 10px rgba(1, 29, 172, 0.193);
 }
 
 img{
-    width: 100%;
+    width: 100%
 }
