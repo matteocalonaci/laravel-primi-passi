@@ -1,6 +1,5 @@
 <?php
 
-
 //dati di configurazione
 
 $DB_SERVERNAME = "localhost";
@@ -29,24 +28,26 @@ $conn = new mysqli("localhost", "root", "", "db_hotel")
 <body style="background-color: rgb(0,8,47);">
     <h1 class="text-center p-1" style="color:red">{{ $titolo }}</h1>
     <hr style="color: white;">
-
-    <p>
-        <?php
-        // check connection
-        if ($conn && $conn->connect_error) {
-            echo "Connessione fallita" . $conn->connect_error;
-        } else {
-            echo "<span>" . "Connessione eseguita con successo come ci fa presente Joost." . "</span>";
-        }
-        ?>
-    </p>
-    </div>
-
-    <div class="img-container">
-        <img src="/img/JoostKlein_OK.png" alt="">
-    </div>
-
-    <a href="/about">about</a>
+    <h5 class="text-center pt-5" style="color: violet;">1.  Due amanti felici – Pablo Neruda</h5>
+    <p class="poesia">
+Due amanti felici fanno un solo pane, <br>
+una sola goccia di luna nell’erba,<br>
+lascian camminando due ombre che s’unisco,<br>
+lasciano un solo sole vuoto in un letto.<br>
+<br>
+Di tutte le verità scelsero il giorno:<br>
+non s’uccisero con fili, ma con un aroma<br>
+e non spezzarono la pace né le parole.<br>
+È la felicità una torre trasparente.<br>
+<br>
+L’aria, il vino vanno coi due amanti,<br>
+gli regala la notte i suoi petali felici,<br>
+hanno diritto a tutti i garofani.<br>
+<br>
+Due amanti felici non hanno fine né morte,<br>
+nascono e muoiono più volte vivendo,<br>
+hanno l’eternità della natura.<br>
+</p>
 
 </body>
 

@@ -1,6 +1,7 @@
 p{
     color: plum;
     padding: 1rem;
+    font-style: oblique;
 }
 
 .img-container{
@@ -15,3 +16,14 @@ p{
 img{
     width: 100%
 }
+ a{
+    
+    color: plum;
+    padding: 1rem;
+ }
+
+ .poesia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }

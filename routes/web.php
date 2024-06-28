@@ -13,6 +13,17 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/welcome', function () {
+  $data = [
+    "titolo"=>"WELCOME LARAVEL WORLD"
+  ];
+    return view('welcome', $data);
 });
+
+Route::get('/about', function () {
+    $data = [
+        "titolo"=>"WELCOME ALTRO BLADE"
+      ];
+        return view('altro', $data);
+  });
+
